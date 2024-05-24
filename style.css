@@ -1,0 +1,179 @@
+body {
+  background-color: black !important;
+  color: white !important;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  important;
+  padding: 20px 20px !important;
+}
+
+.logo {
+    font-size: 25px;
+}
+
+
+.menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.menu ul li {
+  list-style: none;
+}
+
+.menu ul li a {
+    font-size: 20px;
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.menu ul li a {
+      
+  text-decoration: none !important;
+  color: white !important;
+}
+
+.bg-image {
+    background-image :  url(./image/main.png) !important;
+    width: 100%;
+    height: 578px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro {
+    position: absolute;
+    border-left: 4px solid white;
+    border-radius: 30px;
+    padding: 40px;
+    top: 30%;
+    left: 20%;
+}
+
+p{
+
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+button{
+    background-color: transparent !important;
+    border: 1px solid #81FF55;
+    color: aliceblue;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #81FF55 !important;
+    border: 1px solid #81FF55;
+    color: black;
+
+    line-height: 1.5;
+    cursor: pointer;
+}
+
+.about-heder{
+    padding-top:80px ;
+    display: flex ;
+    justify-content: space-between;
+
+}
+
+.story{
+    padding-top: 80px;
+    display: flex ;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.self-img img{
+    height: 375px ;
+    width: 430px;
+}
+
+.story-intro{
+    background-color: #0b3318;
+    padding: 20px;
+    border-radius: 15PX;
+}
+
+.story-intro h6{
+    line-height: 3;
+    letter-spacing: 2px;
+    color: #81FF55;
+}
+.story-intro h2{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: white;
+    font-size: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.story-intro p{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ex{
+    margin-top: 20px;;
+    display: flex;
+    padding: 50px;
+    border-radius: 20px;
+    gap: 30px;
+    background-color: #1a1f1a;
+    border: #BBEECC solid 1px ;
+    
+}
+
+.tech{
+    background-image: url("./image/Frame.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 80px;
+}
+
+.tech-header{
+    position: relative;
+    padding: 65px;
+}
+.tech-header h2{
+    font-weight: 700;
+    line-height: 4;
+}
+
+.lang h3{
+
+    font-size: 18px;
+    color: #81FF55;text-decoration: underline;
+    line-height: 4;
+    letter-spacing: 2px;
+}
+.images{display: flex;
+    gap: 20px;
+}
+.images img{
+    height: 180px;
+    width: 180px;
+}
+.images :hover{
+    transform: scale(1.1);
+    transition: 0.5s ease;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px #81FF55;
+    border-radius: 10px;
+    border: 1px solid #81FF55;
+    background-color: #0b3318;
+    color: white;
+    font-weight: 600;
+}
