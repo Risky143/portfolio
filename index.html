@@ -4,11 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap Integration</title>
+    <title>Rishi Pandya </title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
@@ -16,12 +19,14 @@
         <!-- Your content here -->
         <div class="header" id="home">
             <div class="logo">RISHI</div>
-            <div class="menu-toggle" onclick="toggleMenu()">☰</div> 
+            <!-- Hamburger menu button -->
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
             <div class="menu">
+
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#story">Contact</a></li>
+                    <li><a href="#home" onclick="toggleMenu()">Home</a></li>
+                    <li><a href="#" onclick="toggleMenu()">Services</a></li>
+                    <li><a href="#story" onclick="toggleMenu()">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -105,17 +110,469 @@
             </div>
 
         </div>
+    
+    <div class="work container-fluid">
+        <div class="con">
+        <h1> { SERVICE }</h1>
+        <div class="work-header">
+            <div class="work-des">
+                <div class="des">
+                    <h1>{ BACKEND DEVLOPMENT}</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui illo dignissimos, nulla, dolorem
+                        asperiores praesentium, amet non quam sunt id minima adipisci itaque tenetur temporibus. Dicta
+                        omnis et aliquam! Tenetur?
+                    </p>
+                </div>
+
+                <div class="work-tabs">
+
+
+                    <div class="tab">
+                        <div class="tab-data">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.0002 36.6667C29.2049 36.6667 36.6668 29.2047 36.6668 20C36.6668 10.7953 29.2049 3.33334 20.0002 3.33334C10.7954 3.33334 3.3335 10.7953 3.3335 20C3.3335 29.2047 10.7954 36.6667 20.0002 36.6667Z"
+                                    stroke="white" stroke-width="1.5" />
+                                <path
+                                    d="M25.8335 15L26.1194 15.286C28.3417 17.5082 29.4528 18.6193 29.4528 20C29.4528 21.3807 28.3417 22.4918 26.1194 24.714L25.8335 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M22.1567 11.9506L19.9999 20L17.8431 28.0494" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M14.1667 15L13.8807 15.286C11.6585 17.5082 10.5474 18.6193 10.5474 20C10.5474 21.3807 11.6585 22.4918 13.8807 24.714L14.1667 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+
+                            <h3>{ LANGUAGE }</h3>
+
+                            <ul class="langname">
+                                <li>PHP</li>
+                                <li>NODE</li>
+                                <li>EXPRESS</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab-data">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.0002 36.6667C29.2049 36.6667 36.6668 29.2047 36.6668 20C36.6668 10.7953 29.2049 3.33334 20.0002 3.33334C10.7954 3.33334 3.3335 10.7953 3.3335 20C3.3335 29.2047 10.7954 36.6667 20.0002 36.6667Z"
+                                    stroke="white" stroke-width="1.5" />
+                                <path
+                                    d="M25.8335 15L26.1194 15.286C28.3417 17.5082 29.4528 18.6193 29.4528 20C29.4528 21.3807 28.3417 22.4918 26.1194 24.714L25.8335 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M22.1567 11.9506L19.9999 20L17.8431 28.0494" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M14.1667 15L13.8807 15.286C11.6585 17.5082 10.5474 18.6193 10.5474 20C10.5474 21.3807 11.6585 22.4918 13.8807 24.714L14.1667 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+
+                            <h3>{ LANGUAGE }</h3>
+
+                            <ul class="langname">
+                                <li>PHP</li>
+                                <li>NODE</li>
+                                <li>EXPRESS</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="tab">
+                        <div class="tab-data">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M20.0002 36.6667C29.2049 36.6667 36.6668 29.2047 36.6668 20C36.6668 10.7953 29.2049 3.33334 20.0002 3.33334C10.7954 3.33334 3.3335 10.7953 3.3335 20C3.3335 29.2047 10.7954 36.6667 20.0002 36.6667Z"
+                                    stroke="white" stroke-width="1.5" />
+                                <path
+                                    d="M25.8335 15L26.1194 15.286C28.3417 17.5082 29.4528 18.6193 29.4528 20C29.4528 21.3807 28.3417 22.4918 26.1194 24.714L25.8335 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                                <path d="M22.1567 11.9506L19.9999 20L17.8431 28.0494" stroke="white" stroke-width="1.5"
+                                    stroke-linecap="round" />
+                                <path
+                                    d="M14.1667 15L13.8807 15.286C11.6585 17.5082 10.5474 18.6193 10.5474 20C10.5474 21.3807 11.6585 22.4918 13.8807 24.714L14.1667 25"
+                                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                            </svg>
+
+                            <h3>{ LANGUAGE }</h3>
+
+                            <ul class="langname">
+                                <li>PHP</li>
+                                <li>NODE</li>
+                                <li>EXPRESS</li>
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </div>
+    </div>
+    
+    <div class="projects">
+        <div class="gallery">
+            <h2>MY PROJECTS</h2>
+            <div class="options">
+                <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-walking"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Blonkisoaz</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="option " style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
+                    <div class="shadow"></div>
+                    <div class="label">
+                       <div class="icon">
+                          <i class="fas fa-walking"></i>
+                       </div>
+                       <div class="info">
+                          <div class="main">Blonkisoaz</div>
+                          <div class="sub">Omuke trughte a otufta</div>
+                       </div>
+                    </div>
+                 </div>
+                         <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/6fb397d822f4f9f4596dff2085b18f2e/tumblr_nzsvb4p6xS1qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-walking"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Blonkisoaz</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+                
+                <div class="option active" style="--optionBackground:url(https://66.media.tumblr.com/8b69cdde47aa952e4176b4200052abf4/tumblr_o51p7mFFF21qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-snowflake"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Oretemauw</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5af3f8303456e376ceda1517553ba786/tumblr_o4986gakjh1qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-tree"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Iteresuselle</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/5516a22e0cdacaa85311ec3f8fd1e9ef/tumblr_o45jwvdsL11qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-tint"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Idiefe</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+                <div class="option" style="--optionBackground:url(https://66.media.tumblr.com/f19901f50b79604839ca761cd6d74748/tumblr_o65rohhkQL1qho82wo1_1280.jpg);">
+                   <div class="shadow"></div>
+                   <div class="label">
+                      <div class="icon">
+                         <i class="fas fa-sun"></i>
+                      </div>
+                      <div class="info">
+                         <div class="main">Inatethi</div>
+                         <div class="sub">Omuke trughte a otufta</div>
+                      </div>
+                   </div>
+                </div>
+             </div>
+        </div>
+    </div>
+    <div class="job">
+        <h2>EXPERIENCE</h2>
+        <div class="mainjob">
+        <div class="job1">
+            <h6>(July 2023 - Present)</h6>
+            <h4>BACK-END DEVELOPER</h4>
+            <p>CloudExiseTechnolabs LLP</p>
+        </div>
+        <div class="job1">
+            <h6>(July 2023 - Present)</h6>
+            <h4>BACK-END DEVELOPER</h4>
+            <p>CloudExiseTechnolabs LLP</p>
+        </div>
+    </div>
+    </div>
+
+    <div class="edu">
+        <div class="edu1"></div>
+    </div>
+
+    <div class="contact-us">
+
+        <section>
+    
+            <div class="section-header">
+              <div class="container">
+                <h2>CONTACT US</h2>
+
+              </div>
+            </div>
+            
+            <div class="container">
+              <div class="row1">
+                
+                <div class="contact-info">
+                  
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-phone"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Phone</h4>
+                      <p>9016977699</p>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-info-item">
+                    <div class="contact-info-icon">
+                      <i class="fas fa-envelope"></i>
+                    </div>
+                    
+                    <div class="contact-info-content">
+                      <h4>Email</h4>
+                     <p>rishipandya9616@gmail.com</p>
+                    </div>
+                  </div>
+                  <div class="contact-info-item">
+                   
+                    
+                    <div class="contact-info-content">
+                      <h4>           Follow Me:           
+                    </h4>
+                     <p><i class="fa fa-instagram"></i> &nbsp;
+                        <i class="fa fa-linkedin"></i>  &nbsp;
+                        <i class="fas fa-envelope"></i> </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="contact-form">
+                  <form action="" id="contact-form">
+                    <h2>Send Message</h2>
+                    <div class="input-box">
+                      <input type="text" required="true" name="">
+                      <span>Full Name</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="email" required="true" name="">
+                      <span>Email</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <textarea required="true" name=""></textarea>
+                      <span>Type your Message...</span>
+                    </div>
+                    
+                    <div class="input-box">
+                      <input type="submit" value="Send" name="">
+                    </div>
+                  </form>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+
+    </div>
+</div>
+    <footer class="">
+        <div class="container">
+            <div class="footer-main">
+            <h2>Let's <br><span style="color: #81ff55;"> Work</span>  Together -<h2>
+
+            </div>
+        
+        </div>
+        <hr>
+        <div class="border1">
+            <i class="fa fa-copyright" aria-hidden="true"></i>2024 All rights reserved.
+            </div>
+    </footer>
+
+
     <!-- Bootstrap JS and dependencies -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
     <script src="./bootstrap/js/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-     <script>
+    <script>
+        
+        $(".option").click(function(){
+   $(".option").removeClass("active");
+   $(this).addClass("active");
+   
+});
+
+        var dot = document.createElement("div");
+        dot.className = "trail";
+        document.body.appendChild(dot);
+
+        var prevX, prevY;
+
+        function mousemoveHandler(event) {
+            dot.style.left = (event.pageX - 5) + "px";
+            dot.style.top = (event.pageY - 5) + "px";
+
+            // Check if mouse position has changed
+            if (event.pageX === prevX && event.pageY === prevY) {
+                // Mouse has stopped moving
+                dot.style.display = "none"; // Hide the dot
+            } else {
+                // Mouse is moving, so show the dot and update previous position
+                dot.style.display = "block";
+                prevX = event.pageX;
+                prevY = event.pageY;
+            }
+        }
+
+        // Listen for mousemove event
+        addEventListener("mousemove", mousemoveHandler);
+
+
         // script.js
         function toggleMenu() {
-            const menu = document.querySelector('.menu');
-            menu.classList.toggle('show');
+            var menuToggle = document.querySelector('.menu-toggle');
+            var menu = document.querySelector('.menu');
+
+            // Toggle the visibility of the menu
+            if (menu.style.display === 'none' || menu.style.display === '') {
+                menu.style.display = 'block';
+                // Hide the hamburger icon when menu is displayed
+                menuToggle.style.display = 'none';
+            } else {
+                menu.style.display = 'none';
+                // Show the hamburger icon when menu is hidden
+                menuToggle.style.display = 'block';
+            }
         }
+
+        const gallery = document.getElementById("slider");
+        const left = document.querySelector(".left");
+        const right = document.querySelector(".right");
+        let selected = 0;
+        const imageFolder = "image/";
+        const imageNames = ["img1.png", "img2.png", "img3.png", "img4.png" /* Add more image filenames as needed */];
+
+        function initGallery() {
+            gallery.innerHTML = "";
+            imageNames.forEach((imageName, index) => {
+                const imageWrapper = document.createElement("div");
+                imageWrapper.classList.add("wrapper");
+                if (index === selected) {
+                    imageWrapper.classList.add("selected");
+                }
+                const image = document.createElement("img");
+                image.src = imageFolder + imageName;
+                image.width = 500; // Set width
+                image.height = 350; // Set height
+                imageWrapper.appendChild(image);
+
+                // Adding project information div
+                const projectInfo = document.createElement("div");
+                projectInfo.classList.add("project-info");
+
+                // Adding project name (h2)
+                const projectName = document.createElement("h2");
+                projectName.textContent = "Project Name " + (index + 1);
+                projectInfo.appendChild(projectName);
+
+                // Adding project description and link (p)
+                const projectDescription = document.createElement("p");
+                projectDescription.textContent = "Description of project " + (index + 1) + " ";
+                const projectLink = document.createElement("a");
+                projectLink.href = "#"; // Add your project link here
+                projectLink.textContent = "Read more"; // Add your link text here
+                projectDescription.appendChild(projectLink);
+                projectInfo.appendChild(projectDescription);
+
+                // Hide project information initially
+                projectInfo.style.display = "none";
+
+                imageWrapper.appendChild(projectInfo);
+
+                // Add event listeners for hover effect
+                imageWrapper.addEventListener("mouseenter", function () {
+                    projectInfo.style.display = "block";
+                });
+
+                imageWrapper.addEventListener("mouseleave", function () {
+                    projectInfo.style.display = "none";
+                });
+
+                gallery.appendChild(imageWrapper);
+            });
+        }
+
+        left.onclick = function () {
+            if (selected > 0) {
+                selected--;
+                handleSelection();
+            }
+        };
+
+        right.onclick = function () {
+            if (selected < imageNames.length - 1) {
+                selected++;
+                handleSelection();
+            }
+        };
+
+        function handleSelection() {
+            const images = document.querySelectorAll(".wrapper");
+            if (selected === imageNames.length - 1) {
+                right.classList.add("disabled");
+            } else {
+                right.classList.remove("disabled");
+            }
+            if (selected === 0) {
+                left.classList.add("disabled");
+            } else {
+                left.classList.remove("disabled");
+            }
+            images.forEach((img, index) => {
+                if (index === selected) {
+                    img.classList.add("selected");
+                } else {
+                    img.classList.remove("selected");
+                }
+            });
+        }
+
+        initGallery();
 
     </script>
 </body>
